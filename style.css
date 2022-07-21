@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* header starts */
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+header h2{
+    width: 243px;
+    height: 52.2px;
+    font-size: 24px;
+    margin-left: 120px;
+    margin-top: 87px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    /* height: 36px; */
+    margin: 95px 86px 0px 0px;
+    padding: 0;
+}
+
+.menu ul li{
+    margin-right: 34px;
+    font-size: 16px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.menu ul li a .fa-magnifying-glass{
+    height: 24px;
+    width: 24px;
+}
+
+.fa-cart-shopping{
+    height: 24px;
+    width: 24px;
+}
+
+/* common styles */
+main{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px;
+}
+
+.info h1{
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.info h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.info a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.image{
+    margin-right: 55px;
+    width: 440px;
+    height: 414px;
+}
+
+.company-logos hr{
+    border-top: 1px solid #AAAAAA;
+    width: 70%;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    padding: 30.5px;
+}
+
+/* collection section starts */
+.popular{
+    margin: 196px;
+    width: 1160px;
+}
+
+.popular h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.collection{
+    /* margin: 20px; */
+    padding: 30px;
+    width: 329px;
+    height: 476px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.collection img{
+    border-radius: 5px;
+}
+
+.popular a{
+    text-decoration: none;
+    float: right;
+}
